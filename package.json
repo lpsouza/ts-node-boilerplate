@@ -1,0 +1,25 @@
+{
+  "name": "ts-node-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate to start a Node.js project using TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "nodemon src/app.ts"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "./src"
+    ],
+    "ext": "ts",
+    "exec": "ts-node ./src/app.ts"
+  },
+  "author": "Luiz Pereira de Souza Filho <lpsouza@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
