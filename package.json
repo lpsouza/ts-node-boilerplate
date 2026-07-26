@@ -18,7 +18,7 @@
   "author": "Luiz Pereira de Souza Filho <lpsouza@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^3.0.3",
+    "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
